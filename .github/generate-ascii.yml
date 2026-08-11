@@ -1,7 +1,7 @@
 name: Generate ASCII ARTWORK
 
 on:
- push
+  push
 
 jobs:
  ascii_job:
@@ -24,4 +24,3 @@ jobs:
 
   - name: List Repo Files
     run: ls -ltra
-    
